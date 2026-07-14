@@ -3,7 +3,7 @@ local MB = Mangosbot
 MB.Actions = { selected = {}, group = {} }
 MB.ActionService = {}
 
-local IMAGE_ROOT = "Interface\\AddOns\\Mangosbot\\Images\\"
+local IMAGE_ROOT = "Interface\\AddOns\\Mangosbot2\\Images\\"
 
 local function action(label, icon, commands, scope, tooltip)
     return {
