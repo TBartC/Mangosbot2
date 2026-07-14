@@ -1,0 +1,29 @@
+<Bindings>
+  <Binding runOnUp="false" name="ROSTER" header="MANGOSBOT" default="F11">
+    Mangosbot.Roster:Toggle()
+  </Binding>
+  <Binding runOnUp="false" name="DEBUG" header="MANGOSBOT" default="SHIFT+F11">
+    Mangosbot.SelfTest:Run()
+  </Binding>
+  <Binding runOnUp="false" name="FOLLOW" default="SHIFT+F">
+    Mangosbot.ActionService:RunGroup("follow")
+  </Binding>
+  <Binding runOnUp="false" name="STAY" default="SHIFT+G">
+    Mangosbot.ActionService:RunGroup("stay")
+  </Binding>
+  <Binding runOnUp="false" name="PASSIVE" default="SHIFT+P">
+    Mangosbot.ActionService:RunGroup("passive")
+  </Binding>
+  <Binding runOnUp="false" name="FLEE" default="SHIFT+H">
+    Mangosbot.ActionService:RunGroup("flee")
+  </Binding>
+  <Binding runOnUp="false" name="LOOT" default="SHIFT+J">
+    Mangosbot.ActionService:RunGroup("loot")
+  </Binding>
+  <Binding runOnUp="false" name="ATTACK" default="SHIFT+A">
+    Mangosbot.ActionService:RunGroup("attack")
+  </Binding>
+  <Binding runOnUp="false" name="PULL" default="SHIFT+T">
+    Mangosbot.ActionService:RunGroup("pull")
+  </Binding>
+</Bindings>

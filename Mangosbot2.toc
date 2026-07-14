@@ -1,0 +1,29 @@
+## Interface: 20400
+## Title: Mangosbot2
+## Author: Theodore
+## Notes: Modular playerbot configuration and command UI by Theo
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: MangosbotDB
+Core\Namespace.lua
+Core\SavedVariables.lua
+Data\StrategyOverrides.lua
+Data\StrategyCatalog.generated.lua
+Data\PackageBundles.generated.lua
+Core\BotState.lua
+Core\Parser.lua
+Core\Transport.lua
+Services\StrategyService.lua
+Services\ActionService.lua
+Services\RosterService.lua
+UI\Widgets.lua
+UI\Roster.lua
+UI\Hirelings.lua
+UI\CommandTab.lua
+UI\SetupTab.lua
+UI\StrategiesTab.lua
+UI\StatusTab.lua
+UI\SelectedBot.lua
+UI\GroupBar.lua
+Diagnostics\SelfTest.lua
+Mangosbot.lua
